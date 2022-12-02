@@ -1,0 +1,5 @@
+.places__paragraphs {
+    width: 100%;
+    grid-area: paragraph;
+    align-self: flex-start;
+}

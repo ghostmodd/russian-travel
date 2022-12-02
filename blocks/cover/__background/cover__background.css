@@ -1,0 +1,31 @@
+.cover__background {
+    width: 92.5vw;
+    max-width: 1280px;
+    height: 57.81vw;
+    margin: 0 auto;
+    background-image: url(../../../images/cover__background@1280px.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        width: 100%;
+        height: 62.5vw;
+        margin: 0;
+        background-image: url(../../../images/cover__background@1024px.png);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        background-image: url(../../../images/cover__background@768px.png);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        background-image: url(../../../images/cover__background@320px.png);
+    }
+}
