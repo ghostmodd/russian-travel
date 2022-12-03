@@ -1,29 +1,30 @@
 .intro {
-    width: 76.88%;
-    margin: 0 auto 92px;
+  width: 76.88%;
+  max-width: 984px;
+  margin: 0 auto 92px;
 }
 
 @media (max-width: 1024px) {
-    .intro {
-        width: 90.6%;
-    }
+  .intro {
+    width: 90.6%;
+  }
 }
 
 @media (max-width: 768px) {
-    .intro {
-        width: 93.75%;
-        margin-bottom: 88px;
-    }
+  .intro {
+    width: 93.75%;
+    margin-bottom: 88px;
+  }
 }
 
 @media (max-width: 650px) {
-    .intro {
-        margin-bottom: 64px;
-    }
+  .intro {
+    margin-bottom: 64px;
+  }
 }
 
 @media (max-width: 320px) {
-    .intro {
-        width: 90%;
-    }
+  .intro {
+    width: 90%;
+  }
 }

@@ -1,27 +1,24 @@
 .places {
-    max-width: 984px;
-    margin: 0 auto 92px;
+  max-width: 984px;
+  margin: 0 auto 92px;
 }
 
 @media (max-width: 1024px) {
-    .places {
-        width: 90.63%;
-        max-width: 928px;
-    }
+  .places {
+    width: 90.63%;
+  }
 }
 
 @media (max-width: 768px) {
-    .places {
-        width: 93.7%;
-        max-width: 720px;
-        margin-bottom: 90px;
-    }
+  .places {
+    width: 93.75vw;
+    margin-bottom: 90px;
+  }
 }
 
-@media (max-width: 550px) {
-    .places {
-        width: 90.6%;
-        max-width: 928px;
-        margin-bottom: 66px;
-    }
+@media (max-width: 570px) {
+  .places {
+    width: 100%;
+    margin-bottom: 66px;
+  }
 }

@@ -6,3 +6,14 @@
     margin: 0;
     color: white;
 }
+
+.menu__link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 460px) {
+    .menu__link {
+        font-size: 24px;
+        line-height: 100%;
+    }
+}

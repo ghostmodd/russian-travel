@@ -1,20 +1,23 @@
 .places__link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    color: white;
-    text-decoration-line: underline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration-line: underline;
+}
+
+.places__link:hover {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 @media screen and (max-width: 650px) {
-    .places__link {
-        font-size: 15px;
-    }
+  .places__link {
+    font-size: 15px;
+  }
 }
 
-@media screen and (max-width: 550px) {
-    .places__link {
-        font-size: 18px;
-    }
+@media screen and (max-width: 570px) {
+  .places__link {
+    font-size: 18px;
+  }
 }

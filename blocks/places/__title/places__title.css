@@ -1,43 +1,46 @@
 .places__title {
-    grid-area: title;
-    width: 460px;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 106%;
-    margin: 0;
+  grid-area: title;
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
-    .places__title {
-        width: 440px;
-    }
+  .places__title {
+    max-width: 440px;
+  }
 }
 
-@media (max-width: 768px) {
-    .places__title {
-        max-width: 330px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 42px;
-        line-height: 110%;
-    }
+@media (max-width: 778px) {
+  .places__title {
+    max-width: 330px;
+    font-size: 42px;
+    line-height: 110%;
+  }
 }
 
 @media (max-width: 650px) {
-    .places__title {
-        max-width: 290px;
-        font-size: 36px;
-    }
+  .places__title {
+    max-width: 290px;
+    font-size: 36px;
+  }
 }
 
-@media (max-width: 550px) {
-    .places__title {
-        max-width: 288px;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 109%;
-        margin-bottom: 32px;
-    }
+@media (max-width: 570px) {
+  .places__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 109%;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__title {
+    width: 288px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
