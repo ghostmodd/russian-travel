@@ -1,0 +1,22 @@
+.menu__list {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 570px) {
+  .menu__list {
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .menu__list {
+    max-width: 186px;
+    flex-direction: column;
+    margin-bottom: 48px;
+    gap: 32px;
+  }
+}
