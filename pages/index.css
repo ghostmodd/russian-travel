@@ -1,8 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 
-@import url(../blocks/span/_text/span_text_bold.css);
-@import url(../blocks/span/_text/span_text_break.css);
+@import url(../blocks/text-break/text-beak.css);
 
 @import url(../blocks/root/root.css);
 
@@ -24,6 +23,7 @@
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
 @import url(../blocks/intro/__list-item/intro__list-item.css);
+@import url(../blocks/intro/__span-accent/intro__span-accent.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
