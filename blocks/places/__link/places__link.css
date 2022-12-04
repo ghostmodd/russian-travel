@@ -5,13 +5,3 @@
   color: white;
   text-decoration-line: underline;
 }
-
-.places__link:hover {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-@media screen and (max-width: 320px) {
-  .places__link {
-    font-size: 18px;
-  }
-}

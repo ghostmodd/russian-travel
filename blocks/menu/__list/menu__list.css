@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 480px) {
   .menu__list {
     max-width: 186px;
     flex-direction: column;

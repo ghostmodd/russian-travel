@@ -7,9 +7,3 @@
   text-transform: uppercase;
   margin: 0 0 12px;
 }
-
-@media screen and (max-width: 320px) {
-  .places__url-heading {
-    font-size: 12px;
-  }
-}
