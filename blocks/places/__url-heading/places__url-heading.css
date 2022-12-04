@@ -4,16 +4,11 @@
   line-height: 12px;
   letter-spacing: 2px;
   color: #AAAAAA;
+  text-transform: uppercase;
   margin: 0 0 12px;
 }
 
-@media screen and (max-width: 650px) {
-  .places__url-heading {
-    font-size: 11px;
-  }
-}
-
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 320px) {
   .places__url-heading {
     font-size: 12px;
   }

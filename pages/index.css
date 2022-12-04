@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
+@import url(../vendor/fonts.css);
 
-@import url(../blocks/text-break/text-beak.css);
+@import url(../blocks/opacity-dim/opacity-dim.css);
 
 @import url(../blocks/root/root.css);
 
@@ -48,4 +48,4 @@
 @import url(../blocks/menu/__link/menu__link.css);
 
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

@@ -20,14 +20,8 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 610px) {
   .lead {
     margin-bottom: 64px;
-  }
-}
-
-@media (max-width: 570px) {
-  .lead {
-    width: 100%;
   }
 }

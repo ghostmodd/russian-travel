@@ -6,12 +6,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 570px) {
-  .menu__list {
-    gap: 12px;
-  }
-}
-
 @media screen and (max-width: 460px) {
   .menu__list {
     max-width: 186px;

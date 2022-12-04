@@ -18,17 +18,10 @@
   }
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 610px) {
   .places__image {
-    width: 290px;
-    height: 290px;
-  }
-}
-
-@media (max-width: 570px) {
-  .places__image {
-    width: 280px;
-    height: 280px;
+    width: 310px;
+    height: 310px;
     margin-bottom: 32px;
   }
 }

@@ -7,13 +7,7 @@
   margin: 0;
 }
 
-@media (max-width: 1024px) {
-  .places__title {
-    max-width: 440px;
-  }
-}
-
-@media (max-width: 778px) {
+@media screen and (max-width: 778px) {
   .places__title {
     max-width: 330px;
     font-size: 42px;
@@ -21,26 +15,17 @@
   }
 }
 
-@media (max-width: 650px) {
+@media screen and (max-width: 610px) {
   .places__title {
-    max-width: 290px;
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 570px) {
-  .places__title {
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 109%;
     margin-bottom: 32px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .places__title {
-    width: 288px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 109%;
+    margin-left: 16px;
   }
 }
