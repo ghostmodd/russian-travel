@@ -25,8 +25,10 @@
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <div class="lead__image">
-          <img class="lead__image-map" src="images/lead__image-map.svg"
-            alt="Карта Транссибирской магистрали с обозначениями городов">
+          <figure>
+            <img class="lead__image-map" src="images/lead__image-map.svg"
+              figcaption="Карта Транссибирской магистрали с обозначениями городов">
+          </figure>
         </div>
         <p class="lead__caption">ваша полка
           &#8212; верхняя</p>
@@ -54,18 +56,28 @@
       </article>
 
       <section class="photo-grid" aria-label="Галерея">
-        <img class="photo-grid__item" src="images/photo-grid__item(1).png" alt="Вид из окна поезда">
-        <img class="photo-grid__item" src="images/photo-grid__item(2).png" alt="Вид на заснеженные горы">
-        <img class="photo-grid__item" src="images/photo-grid__item(3).png" alt="Пейзаж утреннего поля">
-        <img class="photo-grid__item" src="images/photo-grid__item(4).png" alt="Пейзаж леса в тумане">
-        <img class="photo-grid__item" src="images/photo-grid__item(5).png" alt="Корка льда озера и колесо машины">
-        <img class="photo-grid__item" src="images/photo-grid__item(6).png" alt="Пейзаж песчаного пляжа и гор">
-        <img class="photo-grid__item" src="images/photo-grid__item(7).png" alt="Пейзаж заснеженных вершин гор">
-        <img class="photo-grid__item" src="images/photo-grid__item(8).png" alt="Пешеходный знак на фоне бетонных плит">
-        <img class="photo-grid__item" src="images/photo-grid__item(9).png" alt="Пейзаж холмов">
-        <img class="photo-grid__item" src="images/photo-grid__item(10).png" alt="Зеленое поле перед горой">
-        <img class="photo-grid__item" src="images/photo-grid__item(11).png" alt="Пейзаж пригорка и горного озера">
-        <img class="photo-grid__item" src="images/photo-grid__item(12).png" alt="Вид на вершину горы, скрытую в тумане">
+        <ul class="photo-grid__list">
+          <li><img class="photo-grid__item" src="images/photo-grid__item(1).png" alt="Вид из окна поезда"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(2).png" alt="Вид на заснеженные горы">
+          </li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(3).png" alt="Пейзаж утреннего поля"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(4).png" alt="Пейзаж леса в тумане"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(5).png"
+            alt="Корка льда озера и колесо машины"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(6).png"
+            alt="Пейзаж песчаного пляжа и гор"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(7).png"
+            alt="Пейзаж заснеженных вершин гор"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(8).png"
+            alt="Пешеходный знак на фоне бетонных плит"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(9).png" alt="Пейзаж холмов"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(10).png" alt="Зеленое поле перед горой">
+          </li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(11).png"
+            alt="Пейзаж пригорка и горного озера"></li>
+          <li><img class="photo-grid__item" src="images/photo-grid__item(12).png"
+            alt="Вид на вершину горы, скрытую в тумане"></li>
+        </ul>
       </section>
 
       <section class="places" aria-label="Интересные места для путешествий по России">
@@ -73,7 +85,7 @@
           <h2 class="places__title">Куршская коса</h2>
           <div class="places__website">
             <p class="places__url-heading">url</p>
-            <a class="places__link opacity-dim" href="http://park-kosa.ru/">park-kosa.ru</a>
+            <a class="places__link opacity-dim" href="http://park-kosa.ru/" target="_blank">park-kosa.ru</a>
           </div>
           <img class="places__image" src="images/places__image(1).png"
             alt="Фото-пейзаж, на котором изображен каменистый морской берег">
@@ -99,7 +111,7 @@
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link opacity-dim"
-              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+              href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National
               Geographic</a>
           </div>
           <img class="places__image" src="images/places__image(2).png"
@@ -123,7 +135,7 @@
           <div class="places__website">
             <p class="places__url-heading">URL</p>
             <a class="places__link opacity-dim"
-              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+              href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
           </div>
           <img class="places__image" src="images/places__image(3).png"
             alt="Фото с изображением ноутбука на фоне зеленого леса">
@@ -148,7 +160,7 @@
           <h2 class="places__title">Зимний Байкал</h2>
           <div class="places__website">
             <p class="places__url-heading">URL</p>
-            <a class="places__link opacity-dim" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <a class="places__link opacity-dim" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="places__image" src="images/places__image(4).png"
             alt="Фото-пейзаж озера, покрытого живописным льдом">
@@ -170,7 +182,7 @@
           <h2 class="places__title">Карелия</h2>
           <div class="places__website">
             <p class="places__url-heading">URL</p>
-            <a class="places__link opacity-dim" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+            <a class="places__link opacity-dim" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="places__image" src="images/places__image(5).png"
             alt="Фото-пейзаж, на котором изображена лесная река">
@@ -186,7 +198,7 @@
         </article>
       </section>
       <section class="cover">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
 
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
