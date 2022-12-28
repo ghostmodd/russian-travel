@@ -7,7 +7,6 @@
 @media screen and (max-width: 1024px) {
   .photo-grid {
     width: 90.63%;
-    gap: 14px;
   }
 }
 
@@ -15,7 +14,6 @@
   .photo-grid {
     width: 93.75%;
     max-width: 1184px;
-    gap: 16px;
     margin-bottom: 88px;
   }
 }
@@ -23,7 +21,6 @@
 @media screen and (max-width: 320px) {
   .photo-grid {
     width: 90%;
-    gap: 12px;
     margin-bottom: 64px;
   }
 }
